@@ -3,7 +3,7 @@ import FooterNavBar from "./FooterNavBar";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className="bg-black text-gray-300">
       <FooterNavBar />
     </div>
   );

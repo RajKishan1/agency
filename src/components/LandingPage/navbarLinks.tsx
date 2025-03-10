@@ -4,7 +4,7 @@ const NavbarLinks = ({ href, text }: { href: string; text: string }) => {
   return (
     <span>
       <Link href={`${href}`}>
-        <h5 className="">{text}</h5>
+        <h5 className="text-xl">{text}</h5>
       </Link>
     </span>
   );
