@@ -13,7 +13,7 @@ const FooterNavBar = () => {
         <FooterLinks text="Blog" href="" />
       </span>
       <span className="flex">
-        <div>icon1</div>
+        <div></div>
         <div>icon2</div>
         <div>icon3</div>
       </span>
