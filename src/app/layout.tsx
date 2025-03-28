@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` px-[4vw] `}>
+      <body className={` px-[5vw] `}>
         {children}
       </body>
     </html>

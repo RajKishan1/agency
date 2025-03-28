@@ -4,7 +4,7 @@ const FooterHero = () => {
   return (
     <div className="flex border-b-2 py-8 border-neutral-300">
       <div className="w-[45%] flex flex-col gap-5 text-xl text-white">
-        <h6 className="bg-[#b9ff66] text-black">Contact Us:</h6>
+        <h6 className="bg-[#b9ff66] text-black rounded-lg w-28 px-1 font-semibold">Contact Us:</h6>
         <p>Email: info@positivus.com</p>
         <p>Phone: 555-567-8901</p>
         <p>
@@ -16,7 +16,7 @@ const FooterHero = () => {
         <div className="w-2/5 border-2 border-neutral-300 rounded-xl">
           <input
             type="text"
-            className="h-full w-full py-6 text-white text-2xl ml-4"
+            className="h-full w-full py-6 text-white text-2xl ml-4 "
             placeholder="Email"
           />
         </div>

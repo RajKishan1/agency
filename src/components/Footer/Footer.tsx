@@ -5,7 +5,7 @@ import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#191A23] text-gray-30 mx-12 p-12 rounded-tl-[50px] rounded-tr-[50px]">
+    <div className="bg-[#191A23] text-gray-30 p-12 rounded-tl-[50px] rounded-tr-[50px]">
       <FooterNavBar />
       <FooterHero />
       <FooterBottom />

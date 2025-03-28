@@ -18,7 +18,7 @@ const FooterNavBar = () => {
       </span>
       <span className="flex">
         <div></div>
-        <div>
+        <div className="bg-slate-600 rounded-full">
           <Facebook />
         </div>
         <div>icon3</div>
