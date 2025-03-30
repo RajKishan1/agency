@@ -6,6 +6,7 @@ import Navbar from "@/components/LandingPage/Navbar";
 import SmallHeading from "@/components/Shared/SmallHeading";
 import React from "react";
 import GetProposal from "@/components/LandingPage/GetProposal";
+import CaseStudiesComponent from "@/components/LandingPage/CaseStudiesComponent";
 
 const Page = () => {
   return (
@@ -22,7 +23,7 @@ const Page = () => {
         heading="Case Studies"
         text="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
       />
-      
+      <CaseStudiesComponent />
       <SmallHeading
         heading="Contact Us"
         text="Connect with Us: Let's Discuss Your Digital Marketing Needs"
