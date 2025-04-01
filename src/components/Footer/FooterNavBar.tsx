@@ -5,11 +5,11 @@ import { Facebook } from "lucide-react";
 const FooterNavBar = () => {
   return (
     <div
-      className="w-full flex items-center justify-between pb-8
+      className="w-full flex flex-col md:flex-row items-center justify-between pb-8
      text-white"
     >
       <h2 className="font-bold text-2xl">Positivus</h2>
-      <span className="w-4/10 flex justify-between text-xl ">
+      <span className="w-4/10 flex flex-col md:flex-row justify-between text-xl ">
         <FooterLinks text="About Us" href="" />
         <FooterLinks text="Services" href="" />
         <FooterLinks text="Use cases" href="" />

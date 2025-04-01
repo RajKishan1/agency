@@ -4,7 +4,7 @@ import NavbarLinks from "./navbarLinks";
 const Navbar = () => {
   return (
     <div className="w-full flex items-center justify-between text-black my-8">
-      <span className="text-5xl font-black">Positivius</span>
+      <span className="text-5xl font-black">Positivus</span>
       <span className="hidden md:flex items-center gap-[2vw]">
         <NavbarLinks href="" text="About US" />
         <NavbarLinks href="" text="Services" />
