@@ -7,6 +7,8 @@ import SmallHeading from "@/components/Shared/SmallHeading";
 import React from "react";
 import GetProposal from "@/components/LandingPage/GetProposal";
 import CaseStudiesComponent from "@/components/LandingPage/CaseStudiesComponent";
+import FeatureCard from "@/components/LandingPage/FeatureCard";
+import Features from "@/components/LandingPage/Features";
 
 const Page = () => {
   return (
@@ -18,6 +20,7 @@ const Page = () => {
         heading="Services"
         text="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
       />
+      <Features />
       <GetProposal />
       <SmallHeading
         heading="Case Studies"

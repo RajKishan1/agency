@@ -4,10 +4,13 @@ import React from "react";
 interface prop {
   src: string;
   text: string;
+  bgcolor: string;
 }
-const FeatureCard = ({ src, text }: prop) => {
+const FeatureCard = ({ bgcolor, src, text }: prop) => {
   return (
-    <div className="bg-red-300 rounded-4xl border-2 border-black">
+    <div
+      className={`w-[48%] ${bgcolor} flex gap-5 p-12 rounded-4xl border-[1px] border-black`}
+    >
       <div className="w-1/2 flex flex-col justify-between">
         <h2 className="bg-green-200">{text}</h2>
         <div className="flex">
